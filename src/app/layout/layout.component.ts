@@ -13,6 +13,6 @@ export class LayoutComponent implements OnInit {
   ngOnInit(): void {}
 
   addAquaticCreature(newAquaticCreature: any) {
-    this.aquaticCreatures = [...this.aquaticCreatures, newAquaticCreature];
+    this.aquaticCreatures.push(newAquaticCreature);
   }
 }
